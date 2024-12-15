@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chess Repertoire Viewer</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <script>
+        // Set favicon path based on environment
+        const faviconPath = window.location.hostname.includes('github.io') ? '/chess-repitoire-builder/favicon.png' : '/favicon.png';
+        const link = document.createElement('link');
+        link.rel = 'icon';
+        link.type = 'image/png';
+        link.href = faviconPath;
+        document.head.appendChild(link);
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.css">
     <style>
@@ -60,14 +68,19 @@
     </div>
 
     <script>
+        // Detect if we're on GitHub Pages and set the base path accordingly
+        const basePath = window.location.hostname.includes('github.io') ? '/chess-repitoire-builder' : '';
+
         async function loadMarkdown(file) {
             try {
-                const response = await fetch(file);
+                const response = await fetch(`${basePath}/${file}`);
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
                 const text = await response.text();
-                document.getElementById('content').innerHTML = marked.parse(text);
+                // Add base path to all image sources in the markdown
+                const adjustedText = text.replace(/!\[([^\]]*)\]\(\/repertoire\//g, `![$1](${basePath}/repertoire/`);
+                document.getElementById('content').innerHTML = marked.parse(adjustedText);
             } catch (error) {
                 console.error('Error loading markdown:', error);
                 document.getElementById('content').innerHTML = '<p>Error loading content. Please try again.</p>';
