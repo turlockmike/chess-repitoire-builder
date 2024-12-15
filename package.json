@@ -1,0 +1,16 @@
+{
+  "name": "chess-opening-explorer",
+  "version": "1.0.0",
+  "description": "CLI tool to explore chess openings using Lichess API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/",
+    "test:watch": "node --test --watch test/"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "commander": "^11.1.0"
+  }
+}
