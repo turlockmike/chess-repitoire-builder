@@ -14,14 +14,33 @@ Main responses (>20% frequency):
 ### vs 1...c5 (Sicilian Defense)
 As your coach, I recommend the Open Sicilian with 2.Nf3 followed by 3.d4. This is Arjun Erigaisi's preferred way of handling the Sicilian, as it leads to sharp positions where White can play for the initiative.
 
-Key variations we'll prepare:
-1. 2.Nf3 d6 (Main Line)
-   - Leads to Najdorf, Dragon, or Scheveningen structures
-2. 2.Nf3 Nc6 (Open Sicilian)
-   - Can transpose to Sveshnikov or Classical variations
-3. 2.Nf3 e6 (Can transpose to Kan/Taimanov/Scheveningen)
+After 2.Nf3, Black's main responses (2200-2500 rated games):
 
-[We'll analyze each line in detail once we fix our API tool]
+1. 2...d6 (36.8%): Leads to Najdorf (after ...Nf6, ...a6) or Dragon (after ...g6) variations
+   - Score: 51.5% for White
+   - Most principled is 3.d4 cxd4 4.Nxd4, maintaining tension
+   
+2. 2...Nc6 (30.3%): The Classical/Taimanov approach
+   - Score: 51.8% for White
+   - Main line is 3.d4 cxd4 4.Nxd4, leading to rich tactical play
+   
+3. 2...e6 (22.3%): The Kan/Paulsen/Taimanov complex
+   - Score: 50.1% for White
+   - 3.d4 cxd4 4.Nxd4 is again the main line
+   - Watch for ...a6 and ...Nc6 move orders
+
+Less Common but Important Lines:
+- 2...g6 (6.0%): Dragon setup
+- 2...a6 (2.4%): O'Kelly variation
+- 2...Nf6 (1.3%): Nimzowitsch variation
+
+Key Strategic Themes:
+1. White aims for central control with d2-d4
+2. Knights are developed to active squares (Nc3, Nf3)
+3. Development should be rapid and purposeful
+4. Be ready for sharp tactical play
+
+[Detailed analysis of each variation will follow...]
 
 ### vs 1...e5 (Open Games)
 [Analysis will continue based on explorer data...]
