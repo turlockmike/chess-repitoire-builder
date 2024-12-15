@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Repertoire Viewer</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        #content {
+            padding: 20px;
+        }
+        #fileSelect {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        img {
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container markdown-body">
+        <select id="fileSelect">
+            <option value="repertoire/white/e4/scotch/main_lines.md">Scotch Game</option>
+            <option value="repertoire/white/e4/sicilian/main_lines.md">Sicilian Defense</option>
+            <option value="repertoire/white/e4/french/main_lines.md">French Defense</option>
+            <option value="repertoire/white/e4/caro-kann/main_lines.md">Caro-Kann</option>
+            <option value="repertoire/white/e4/alekhine/main_lines.md">Alekhine Defense</option>
+            <option value="repertoire/white/e4/modern-pirc/main_lines.md">Modern/Pirc</option>
+            <option value="repertoire/white/e4/scandinavian/main_lines.md">Scandinavian</option>
+            <option value="repertoire/white/e4/minor-lines/main_lines.md">Minor Lines</option>
+        </select>
+        <div id="content"></div>
+    </div>
+
+    <script>
+        async function loadMarkdown(file) {
+            try {
+                const response = await fetch(file);
+                const text = await response.text();
+                document.getElementById('content').innerHTML = marked.parse(text);
+            } catch (error) {
+                console.error('Error loading markdown:', error);
+                document.getElementById('content').innerHTML = '<p>Error loading content. Please try again.</p>';
+            }
+        }
+
+        document.getElementById('fileSelect').addEventListener('change', (e) => {
+            loadMarkdown(e.target.value);
+        });
+
+        // Load initial content
+        loadMarkdown(document.getElementById('fileSelect').value);
+    </script>
+</body>
+</html>
