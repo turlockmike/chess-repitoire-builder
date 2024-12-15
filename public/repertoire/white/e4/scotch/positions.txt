@@ -1,0 +1,40 @@
+e4 e5 Nf3 Nc6 d4|initial
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6|main_5Bb6
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 Nc3 Nf6|main_6Nf6
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 Nc3 Qf6 Qe2 Nge7|main_7Qf6
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nxc6 bxc6 e5|alt_4Nf6
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nxc6 bxc6 e5 Qe7|alt_5Qe7
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qf6 Nf3 Bc5|aggressive_5Bc5
+
+# Piece Sacrifices
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 Nc3 Nf6 Be3 d6 Nd5|sac_Nd5
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 Nc3 d6 Be3 Nf6 Qd2|sac_prep
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nxc6 bxc6 Nc3 d6 Bg5 h6 Bh6|sac_Bxh6
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Nf6 Nc3 d6 f3 O-O Qd2 Re8 O-O-O Be6|sac_Bxe6
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 Nc3 Nf6 Be3 O-O f3 d6 Qd2 Re8 O-O-O Re6|sac_Rxe6
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 Nc3 d6 Be3 Nf6 f3 O-O Qd2 Re8|sac_Rxc6
+
+# Pin Patterns
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nxc6 bxc6 e5|pin_e5_Nf6
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 Nc3 Nf6 Bg5|pin_Bg5_Nf6
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 Nc3 d6 Be3 Nf6 Qd2|pin_Rd1
+
+# Fork Patterns
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 Nc3 d6 Be3 Nf6 Nb5|fork_Nb5_d6c7
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 Nc3 Qf6 Nd5|fork_Nd5_Qc7
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 e5|fork_e5_Nf6Bc8
+
+# Discovery Patterns
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 Nc3 Nf6 Be3 d6 Nd4 Bd7 Nf5|discovery_Nf5_bishop
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 Nc3 d6 Be3 Nf6 Qd2 d5|discovery_d5_rook
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 Nc3 Nf6 e5|discovery_e5_queen
+
+# Defensive Tricks
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 Nc3 Nd4|trick_Nd4
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 a4 a5 Nc3|trick_Qxb2
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qh4|trick_Bxf2+
+
+# Counter Measures
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 c3|cm_c3
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 a4 a5 Qd2|cm_Rb1
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3|cm_f2

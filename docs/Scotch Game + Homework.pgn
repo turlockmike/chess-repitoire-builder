@@ -1,0 +1,57 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Scotch Game"]
+[Black "?"]
+[Result "*"]
+[ECO "C45"]
+[Annotator "GM_Avetik "]
+[PlyCount "20"]
+[EventDate "2019.??.??"]
+
+{Dear Champions!  Before you go ahead please read the following 2 articles, on
+how to work with this file and how to memorize the variations.   https://
+chessmood.com/blog/how-to-memorize-chess-openings-variations https://chessmood.
+com/blog/the-most-effective-way-to-create-chess-pgn-files  I made a draft file
+for you with homework. After you watch each section, I recommend to add here
+all the things you've learned.  Good luck!} 1. e4 e5 2. Nf3 Nc6 3. d4 exd4 (
+3... Nf6 {Do you remember how do we play here?  Check out the addition
+sections.}) 4. Nxd4 Bc5 (4... Bb4+ 5. c3 Bc5 6. Be3 Bb6 7. Nf5 g6 8. Bxb6 axb6
+9. Ne3 Nf6 10. f3 O-O {[#] Do we play here 11.c4 or 11.Qd2 first? Why?}) (4...
+Qf6 5. Nf3 {[%csl Rc7,Rf6]} Bc5 (5... Bb4+ 6. Nbd2 Nge7 7. Be2 O-O 8. O-O d6 9.
+Nb3 {[%csl Rb4][%cal Ga2a3,Gc2c3]}) 6. Nc3 Nge7 7. Nb5 Bb6 8. Be3 $1 {Do you
+remember what we play after 8...Be3?} Bxe3 {[#]}) (4... Qh4 $2 5. Nc3 $1 (5.
+Nb5 $5) 5... Bb4 6. Be2 Qxe4 7. Ndb5 Bxc3+ 8. bxc3 Kd8 9. O-O $16 {[%csl Rd8]})
+(4... Nf6 5. Nxc6 bxc6 6. e5 Qe7 (6... Nd5 $2 {[#] How do we continue here?})
+7. Qe2 Nd5 8. h4 $5 {[#] What are the main ideas of this move?} Qe6 {[#] 8...
+Qd6 is advanced move.  Here we have many options, my recommendation is 9.Nd2!
+- check out the advanced section} (8... d6 {[#] Do we play 9.ed6 or 9.c4
+first? What's the difference?}) (8... a5 9. c4 Ba6 10. g3 g6 11. h5 Bg7 12. f4
+O-O 13. hxg6 hxg6 14. Qh2 $1 {[%cal Gh2h7,Gc4d5]}) (8... Bb7 {[#] Do you
+remember the idea I recommend you in the course? Check out the advanced
+section.}) (8... h6 9. c4 Ba6 10. g3 g6 11. h5 g5 12. Qe4 $1 {[%csl Rd5][%cal
+Yf7f5,Ye4f5] No more f5!}) (8... f6 {We have two options here. 9.ef6 or 9.c4}
+9. c4 $5 (9. exf6 Qxe2+ 10. Bxe2 Nxf6) 9... Ba6 10. Rh3 $1 {[#] Do you
+remember the variations? Check out the advanced section}) (8... g6 {[#] What
+do we play here? Check out the advanced section.}) 9. Nd2 $1 (9. g3) (9. c4 $5)
+(9. a3 $5)) (4... Nxd4 $2 5. Qxd4 d6 (5... Nf6 $2 {[#]} 6. e5 $1 {[%csl Rf6]})
+(5... Qf6 {[#] What do we play here?}) 6. Nc3 Nf6 7. Bf4 $1 Be7 8. O-O-O O-O 9.
+f3 {[%cal Gg2g4]}) (4... g6 5. Nc3 Bg7 6. Be3 d6 (6... Nf6 $2 {[#] Why Black
+should start with d6?}) 7. Qd2 Nf6 8. f3 O-O 9. O-O-O {[#] How do we organize
+the attack?  Check out the "Attacking plans section"}) 5. Nb3 Bb6 6. Nc3 Nf6 (
+6... d6 7. Qe2 Nge7 8. Be3 O-O 9. O-O-O {[#] What is the attacking plan here?
+Check out the "Attacking plans section"} f5 10. f4 fxe4 11. g3 $1 {[%cal Gf1g2]
+}) (6... Qf6 7. Qe2 Nge7 8. Be3 O-O 9. O-O-O d6 {[#] Why 10.f4 is a blunder?
+What's the correct move here? Check out the "Attacking plans section"}) 7. Qe2
+d6 (7... O-O 8. Bg5 h6 (8... a5 $2 9. Nd5) (8... Nd4 9. Qd2 Nxb3 10. axb3 h6
+11. Be3 Bxe3 12. Qxe3 d5 13. O-O-O c6 14. exd5 cxd5 15. Qd4 {[%csl Gd4][%cal
+Gf2f3,Gg2g4]}) (8... Re8 9. Nd5) 9. Bh4 a5 10. a4 Nd4 11. Qd3 Nxb3 12. cxb3 c6
+13. O-O-O {For more - check out the advanced section 14.Qc2!N}) 8. Be3 O-O 9.
+O-O-O {[#] What is the attacking plan here? Check out the "Attacking plans
+section"} Bxe3+ 10. Qxe3 a5 {[#] How do we meet opponent's attack?  Check out
+the "Attacking plans section"   P.S After you could answer all the questions,
+you'll not just have a strong opening against 1...e5, but you'll also have a
+good understanding of how you're playing these positions.  Good luck!   With
+best wishes, GM Avetik} *
+
